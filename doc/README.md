@@ -70,8 +70,14 @@ manifests\<first lower case letter of publisher>\<publisher>\<package>\<version>
 
 Your PR will go through a validation process. The core team or the Microsoft bot (BOT) will use  [labels](https://docs.microsoft.com/windows/package-manager/package/winget-validation#pull-request-labels)  to assist during the process. In case of a failure, the BOT will suggest the problem with the submission and assign the PR back to you.
 
+#### Community Repository Policies
+
+The WinGet community repository has a set of policies restricting the use of certain manifest fields in PRs. These policies primarily affect optional metadata fields restricted to verified developers. Some fields are automatically populated during our validation process like the fields for icons.
+>[!Note]
+>The verified developer workflow is still in progress.
+
 ### Respond to PR feedback
 
 If your PR has been assigned to you, a timer will be triggered. You will have 7 days to resolve the issue, or the BOT will automatically close the PR.
 
-Submissions to the repository are reviewed by Windows Package Manager administrators and/or community moderators. To help identify these individuals, we have provided a  [Public Service Announcement](https://github.com/microsoft/winget-pkgs/issues/15674).
+Submissions to the repository are reviewed by Windows Package Manager administrators and/or community moderators. These individuals are identified in [Moderation](Moderation.md#moderators).
